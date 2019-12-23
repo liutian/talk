@@ -1,0 +1,13 @@
+.media-box{
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+
+  video,audio{
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
